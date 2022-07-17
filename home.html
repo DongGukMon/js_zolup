@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>zolup</title>
+</head>
+<body>
+    <div class="weather hidden">
+        <span id="city"></span>
+        <span id="sky"></span>
+        <span id="temp"></span>
+    </div>
+
+    <div class="clock hidden">
+        <h1 id="now_time"></h1>
+    </div>
+
+    <div class="greeting">
+        <form id="login_form">
+            <input autocomplete="off" required type="text" id="greeting_input" placeholder="이름이 뭐에요"/>
+        </form>
+        <h1 id="greeting_user" class="hidden"></h1>
+    </div>
+    
+    <div class="todos hidden">
+        <form id="todo_form">
+            <input required type="text" id="todo_input" placeholder="뭐할거에요"/>
+        </form>
+        <ul id="todo_list">
+        </ul>
+    </div>
+    
+ 
+    
+    <script src="src/js/greeting.js"></script>
+    <script src="src/js/clock.js"></script>
+    <script src="src/js/bgImage.js"></script>
+    <script src="src/js/todoList.js"></script>
+    <script src="src/js/weather.js"></script>
+</body>
+</html>

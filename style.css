@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+#greeting_input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-color: aqua;
+    font-weight: bold;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    outline-width: 0;
+}
+
+#greeting_input::placeholder {
+    color: white;
+}
+
+.weather {
+    height: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hidden {
+    display: none;
+}
